@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		BD29E001286A014A00615E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29E000286A014A00615E32 /* AppDelegate.swift */; };
 		BD29E003286A014A00615E32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29E002286A014A00615E32 /* SceneDelegate.swift */; };
-		BD29E005286A014A00615E32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29E004286A014A00615E32 /* ViewController.swift */; };
 		BD29E008286A014A00615E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD29E006286A014A00615E32 /* Main.storyboard */; };
 		BD29E00B286A014A00615E32 /* todoListKwk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD29E009286A014A00615E32 /* todoListKwk.xcdatamodeld */; };
 		BD29E00D286A014B00615E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD29E00C286A014B00615E32 /* Assets.xcassets */; };
 		BD29E010286A014B00615E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD29E00E286A014B00615E32 /* LaunchScreen.storyboard */; };
+		BD29E018286A047300615E32 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29E017286A047300615E32 /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD29DFFD286A014A00615E32 /* todoListKwk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoListKwk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD29E000286A014A00615E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD29E002286A014A00615E32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD29E004286A014A00615E32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD29E007286A014A00615E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD29E00A286A014A00615E32 /* todoListKwk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todoListKwk.xcdatamodel; sourceTree = "<group>"; };
 		BD29E00C286A014B00615E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD29E00F286A014B00615E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD29E011286A014B00615E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD29E017286A047300615E32 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				BD29E000286A014A00615E32 /* AppDelegate.swift */,
 				BD29E002286A014A00615E32 /* SceneDelegate.swift */,
-				BD29E004286A014A00615E32 /* ViewController.swift */,
+				BD29E017286A047300615E32 /* ToDoTableViewController.swift */,
 				BD29E006286A014A00615E32 /* Main.storyboard */,
 				BD29E00C286A014B00615E32 /* Assets.xcassets */,
 				BD29E00E286A014B00615E32 /* LaunchScreen.storyboard */,
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD29E005286A014A00615E32 /* ViewController.swift in Sources */,
 				BD29E001286A014A00615E32 /* AppDelegate.swift in Sources */,
+				BD29E018286A047300615E32 /* ToDoTableViewController.swift in Sources */,
 				BD29E003286A014A00615E32 /* SceneDelegate.swift in Sources */,
 				BD29E00B286A014A00615E32 /* todoListKwk.xcdatamodeld in Sources */,
 			);
